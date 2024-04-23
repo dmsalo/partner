@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<rss version="2.0" xmlns:sparkle="">
   <channel>
     <title>For unit test only</title>
     <item>
         <title>Version 1.0.2</title>
-        <description>desc Версия</description>
+        <description>desc </description>
         <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <enclosure url="https://raw.githubusercontent.com/dmsalo/partner/main/partner_16.zip" sparkle:version="1.0.2" />
+        <enclosure url="https://raw.githubusercontent.com/dmsalo/partner/main/partner.zip" sparkle:version="1.0.2" />
         <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags> 
     </item>
     <!-- The best chosen release -->
     <item>
         <title>Version 1.0.3</title>
         <description>Minor updates and improvements.</description>
-        <enclosure url="https://raw.githubusercontent.com/dmsalo/partner/main/partner_16.zip" sparkle:version="1.0.3" sparkle:os="android" />
+        <enclosure url="https://raw.githubusercontent.com/dmsalo/partner/main/partner.zip" sparkle:version="1.0.3" sparkle:os="android" />
         <sparkle:deltas>
-            <enclosure url="https://raw.githubusercontent.com/dmsalo/partner/main/partner_16.zip.zip"
+            <enclosure url="https://raw.githubusercontent.com/dmsalo/partner/main/partner.zip.zip"
             sparkle:version="1.0.3"
             sparkle:deltaFrom="1.0.2"
             length="1235"
             type="application/octet-stream"
             sparkle:edSignature="..." />
             
-            <enclosure url="https://raw.githubusercontent.com/dmsalo/partner/main/partner_16.zip.zip"
+            <enclosure url="https://raw.githubusercontent.com/dmsalo/partner/main/partner.zip.zip"
             sparkle:version="1.0.3"
             sparkle:deltaFrom="1.0.1"
             length="1485"
@@ -35,7 +35,7 @@
         <title>Version 4.0</title>
         <description>Minor updates and improvements.</description>
         <pubDate>Sat, 26 Jul 2014 15:20:13 +0000</pubDate>
-        <enclosure url="https://raw.githubusercontent.com/dmsalo/partner/main/partner_16.zip" sparkle:version="4.0" sparkle:os="iOS" />
+        <enclosure url="https://raw.githubusercontent.com/dmsalo/partner/main/partner.zip" sparkle:version="4.0" sparkle:os="iOS" />
         <sparkle:minimumSystemVersion>17.0.0</sparkle:minimumSystemVersion>
     </item>
     <!-- A release testing maximumSystemVersion -->
